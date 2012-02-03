@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E29CF71114DBEBE600B08004 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E29CF71014DBEBE600B08004 /* UIKit.framework */; };
+		E29CF71314DBEBE600B08004 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E29CF71214DBEBE600B08004 /* Foundation.framework */; };
+		E29CF71514DBEBE600B08004 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E29CF71414DBEBE600B08004 /* CoreGraphics.framework */; };
+		E29CF71B14DBEBE600B08004 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E29CF71914DBEBE600B08004 /* InfoPlist.strings */; };
+		E29CF71D14DBEBE600B08004 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E29CF71C14DBEBE600B08004 /* main.m */; };
+		E29CF72114DBEBE600B08004 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E29CF72014DBEBE600B08004 /* AppDelegate.m */; };
+		E29CF72414DBEBE600B08004 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E29CF72314DBEBE600B08004 /* ViewController.m */; };
+		E29CF72714DBEBE600B08004 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E29CF72514DBEBE600B08004 /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E29CF70C14DBEBE600B08004 /* MultipleBarButtonsExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultipleBarButtonsExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E29CF71014DBEBE600B08004 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E29CF71214DBEBE600B08004 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E29CF71414DBEBE600B08004 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E29CF71814DBEBE600B08004 /* MultipleBarButtonsExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MultipleBarButtonsExample-Info.plist"; sourceTree = "<group>"; };
+		E29CF71A14DBEBE600B08004 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E29CF71C14DBEBE600B08004 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E29CF71E14DBEBE600B08004 /* MultipleBarButtonsExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MultipleBarButtonsExample-Prefix.pch"; sourceTree = "<group>"; };
+		E29CF71F14DBEBE600B08004 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E29CF72014DBEBE600B08004 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E29CF72214DBEBE600B08004 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E29CF72314DBEBE600B08004 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E29CF72614DBEBE600B08004 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E29CF70914DBEBE600B08004 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E29CF71114DBEBE600B08004 /* UIKit.framework in Frameworks */,
+				E29CF71314DBEBE600B08004 /* Foundation.framework in Frameworks */,
+				E29CF71514DBEBE600B08004 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E29CF70114DBEBE500B08004 = {
+			isa = PBXGroup;
+			children = (
+				E29CF71614DBEBE600B08004 /* MultipleBarButtonsExample */,
+				E29CF70F14DBEBE600B08004 /* Frameworks */,
+				E29CF70D14DBEBE600B08004 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E29CF70D14DBEBE600B08004 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E29CF70C14DBEBE600B08004 /* MultipleBarButtonsExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E29CF70F14DBEBE600B08004 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E29CF71014DBEBE600B08004 /* UIKit.framework */,
+				E29CF71214DBEBE600B08004 /* Foundation.framework */,
+				E29CF71414DBEBE600B08004 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E29CF71614DBEBE600B08004 /* MultipleBarButtonsExample */ = {
+			isa = PBXGroup;
+			children = (
+				E29CF71F14DBEBE600B08004 /* AppDelegate.h */,
+				E29CF72014DBEBE600B08004 /* AppDelegate.m */,
+				E29CF72214DBEBE600B08004 /* ViewController.h */,
+				E29CF72314DBEBE600B08004 /* ViewController.m */,
+				E29CF72514DBEBE600B08004 /* ViewController.xib */,
+				E29CF71714DBEBE600B08004 /* Supporting Files */,
+			);
+			path = MultipleBarButtonsExample;
+			sourceTree = "<group>";
+		};
+		E29CF71714DBEBE600B08004 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E29CF71814DBEBE600B08004 /* MultipleBarButtonsExample-Info.plist */,
+				E29CF71914DBEBE600B08004 /* InfoPlist.strings */,
+				E29CF71C14DBEBE600B08004 /* main.m */,
+				E29CF71E14DBEBE600B08004 /* MultipleBarButtonsExample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E29CF70B14DBEBE600B08004 /* MultipleBarButtonsExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E29CF72A14DBEBE600B08004 /* Build configuration list for PBXNativeTarget "MultipleBarButtonsExample" */;
+			buildPhases = (
+				E29CF70814DBEBE600B08004 /* Sources */,
+				E29CF70914DBEBE600B08004 /* Frameworks */,
+				E29CF70A14DBEBE600B08004 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MultipleBarButtonsExample;
+			productName = MultipleBarButtonsExample;
+			productReference = E29CF70C14DBEBE600B08004 /* MultipleBarButtonsExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E29CF70314DBEBE500B08004 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = E29CF70614DBEBE500B08004 /* Build configuration list for PBXProject "MultipleBarButtonsExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E29CF70114DBEBE500B08004;
+			productRefGroup = E29CF70D14DBEBE600B08004 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E29CF70B14DBEBE600B08004 /* MultipleBarButtonsExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E29CF70A14DBEBE600B08004 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E29CF71B14DBEBE600B08004 /* InfoPlist.strings in Resources */,
+				E29CF72714DBEBE600B08004 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E29CF70814DBEBE600B08004 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E29CF71D14DBEBE600B08004 /* main.m in Sources */,
+				E29CF72114DBEBE600B08004 /* AppDelegate.m in Sources */,
+				E29CF72414DBEBE600B08004 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E29CF71914DBEBE600B08004 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E29CF71A14DBEBE600B08004 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E29CF72514DBEBE600B08004 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E29CF72614DBEBE600B08004 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E29CF72814DBEBE600B08004 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E29CF72914DBEBE600B08004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E29CF72B14DBEBE600B08004 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MultipleBarButtonsExample/MultipleBarButtonsExample-Prefix.pch";
+				INFOPLIST_FILE = "MultipleBarButtonsExample/MultipleBarButtonsExample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E29CF72C14DBEBE600B08004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MultipleBarButtonsExample/MultipleBarButtonsExample-Prefix.pch";
+				INFOPLIST_FILE = "MultipleBarButtonsExample/MultipleBarButtonsExample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E29CF70614DBEBE500B08004 /* Build configuration list for PBXProject "MultipleBarButtonsExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E29CF72814DBEBE600B08004 /* Debug */,
+				E29CF72914DBEBE600B08004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E29CF72A14DBEBE600B08004 /* Build configuration list for PBXNativeTarget "MultipleBarButtonsExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E29CF72B14DBEBE600B08004 /* Debug */,
+				E29CF72C14DBEBE600B08004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E29CF70314DBEBE500B08004 /* Project object */;
+}
