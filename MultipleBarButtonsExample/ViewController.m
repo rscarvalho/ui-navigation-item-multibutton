@@ -18,8 +18,8 @@
 
 - (void)barButtonClicked:(UIBarButtonItem *)item
 {
-    UIAlertView* view = [[UIAlertView alloc] initWithTitle:@"Alert" message:item.title 
-                                                  delegate:nil cancelButtonTitle:@"OK" 
+    UIAlertView* view = [[UIAlertView alloc] initWithTitle:@"Alert" message:item.title
+                                                  delegate:nil cancelButtonTitle:@"OK"
                                          otherButtonTitles:nil];
     if (!item.title) {
         view.message = @"Custom View or System Item";
@@ -30,40 +30,40 @@
 
 - (void)setupNavigationItems
 {
-    NSMutableArray* buttons = [NSMutableArray arrayWithCapacity:4];
-    
+    NSMutableArray* buttons = [NSMutableArray arrayWithCapacity:2];
+
     // Add buttons to the array
     UIBarButtonItem* bi;
-    bi = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd 
-                                                       target:self 
+    bi = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd
+                                                       target:self
                                                        action:@selector(barButtonClicked:)];
     [buttons addObject:bi];
     [bi release];
-    
-    bi = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemCamera 
-                                                       target:self 
+
+    bi = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemCamera
+                                                       target:self
                                                        action:@selector(barButtonClicked:)];
     [buttons addObject:bi];
     [bi release];
-    
+
     // Cria um Flexible Space à equerda para alinhar os botões
-    bi = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemFlexibleSpace 
+    bi = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemFlexibleSpace
                                                        target:nil action:nil];
     [buttons insertObject:bi atIndex:0];
     [bi release];
-    
+
     UIToolbar *toolbar = [[UIToolbar alloc] initWithFrame:CGRectMake(0, 0, 103, 44.01)];
     toolbar.autoresizingMask = UIViewAutoresizingFlexibleHeight;
     toolbar.clearsContextBeforeDrawing = NO;
     toolbar.tintColor = self.navigationController.navigationBar.tintColor;
     toolbar.barStyle = -1; // Limpa o background
-    
+
     [toolbar setItems:buttons animated:NO];
     self.navigationItem.rightBarButtonItem = [[[UIBarButtonItem alloc] initWithCustomView:toolbar] autorelease];
-    
-    self.navigationItem.leftBarButtonItem = [[[UIBarButtonItem alloc] initWithTitle:@"Some Title" 
-                                                                              style:UIBarButtonItemStyleBordered 
-                                                                             target:self 
+
+    self.navigationItem.leftBarButtonItem = [[[UIBarButtonItem alloc] initWithTitle:@"Some Title"
+                                                                              style:UIBarButtonItemStyleBordered
+                                                                             target:self
                                                                              action:@selector(barButtonClicked:)] autorelease];
     [toolbar release];
 }
