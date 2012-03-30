@@ -1,7 +1,7 @@
-
 Requirements
 ============
 
+* Mac OS X >= 10.6
 * Xcode >= 4.2
 * iOS SDK
 
